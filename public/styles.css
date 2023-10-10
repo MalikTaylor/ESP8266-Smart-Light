@@ -1,0 +1,140 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+h1 {
+    font-size: 1.8rem;
+    color: white;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #049faa;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+#authentication-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#user-details{
+    color: cadetblue;
+}
+
+/* .content {
+    padding: 20px;
+} */
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #ececec;
+}
+
+.box{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .row.topnav{
+    flex: 0 1 auto;
+}
+
+
+.box .row.content{
+    flex: 1 1 auto;
+}
+
+.card-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+    background-color: white;
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #034078
+}
+.state {
+    color:#1282A2;
+}
+button {
+    background-color: inherit;
+    color: white;
+    padding: 20px 20px;
+    /* margin: 8px 0; */
+    cursor: pointer;
+    /* border-radius: 8px; */
+}
+
+#house-img{
+    box-shadow: none;
+    /* font-size: 100px; */
+    color: #ccc;
+}
+
+.button-on {
+    box-shadow: 
+  -10px -10px 15px rgba(255, 255, 255, 0.5),
+  10px 10px 15px rgba(70, 70, 70, 0.12),
+  inset -10px -10px 15px #ffffff80,
+  inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.button-off {
+    box-shadow: 
+    -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.form-elements-container{
+    padding: 16px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#garage-btn-off{
+    height: 180px;
+    width: 180px;
+    padding: 20px 20px;
+    border: 10px solid #ececec;
+    border-radius: 50%;
+    /* box-shadow: 0px 2px 2px 5px #252524 ; */
+    font-size: 100px !important;
+    margin-top: -10%;
+}
+
+.fa-gradient{
+    background: -webkit-gradient(linear, left center, right center, from(#128EE9), to(#01ECFB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* #home-content{
+    
+} */
+
+#container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
